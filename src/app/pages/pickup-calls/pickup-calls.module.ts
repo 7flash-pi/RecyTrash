@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { HomePageRoutingModule } from './home-routing.module';
+import { PickupCallsPageRoutingModule } from './pickup-calls-routing.module';
 
-import { HomePage } from './home.page';
+import { PickupCallsPage } from './pickup-calls.page';
 import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { SharedModule } from 'src/app/shared/shared.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule,
+    PickupCallsPageRoutingModule,
     SharedModule
   ],
-  declarations: [HomePage]
+  declarations: [PickupCallsPage]
 })
-export class HomePageModule {}
+export class PickupCallsPageModule {}
